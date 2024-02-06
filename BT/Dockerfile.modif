@@ -1,0 +1,3 @@
+FROM busybox
+COPY modifier-script.sh /modifier-script.sh
+CMD ["sh", "/modifier-script.sh"]
